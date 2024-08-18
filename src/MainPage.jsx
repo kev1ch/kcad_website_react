@@ -1,14 +1,9 @@
 import { Outlet, Link } from "react-router-dom";
-import { useState } from "react";
-import SlideshowComponent from "./SlideshowComponent";
 import DotComponent from "./DotComponent";
 
 import './MainPage.css';
 
 import website_logo from "./img/logo.png";
-import img1 from "./img/img1.jpg";
-import img2 from "./img/img2.jpg";
-import img3 from "./img/img3.jpg";
 
 function MainPage() {
 
@@ -16,10 +11,10 @@ function MainPage() {
         <>
 
             <header>
-                <div id="navigation_bar">
+                <div className="navigation_bar">
                     <img src={website_logo} alt="website_logo"/>
 
-                    <nav className="navigation_bar">
+                    <nav>
                         <Link className={"link-style"} to="/">Home</Link>
                         <Link className={"link-style"} to="/news">News</Link>
                         <Link className={"link-style"} to="/gallery">Gallery</Link>
@@ -27,16 +22,22 @@ function MainPage() {
                         <Link className={"link-style"} to="/contact">Contact</Link>
                     </nav>
                 </div>
+
+                <div className="dropdown_navigaiton">
+                    <button className="dropdown_button">=</button>
+                    <div className="dropdown_content">
+                        <div className="dropdown_element">111</div>
+                        <div className="dropdown_element">222</div>
+                        <div className="dropdown_element">333</div>
+                    </div>
+                </div>
             </header>
 
-
-            <article>
-
-                <SlideshowComponent srcimg1={img1} srcimg2={img2} srcimg3={img3}/>
-
-            </article>
-
             <Outlet/>
+
+            <footer>
+                KCAD 2024
+            </footer>
         </>
     );
 }

@@ -1,15 +1,25 @@
 * {box-sizing:border-box}
 
-/* Slideshow container */
-.slideshow-style {
-  vertical-align: center;       /* ??? */
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-
-  border-width: 1px;
-  border-color: blue;
+@media screen and (max-width: 1000px) {
+  .slideshow-style {
+    display: none;
+  }
 }
+
+@media screen and (min-width: 1000px) {
+  /* Slideshow container */
+  .slideshow-style {
+    vertical-align: center;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+    border-width: 1px;
+    border-color: blue;
+  }
+}
+
+
 
 /* Next & previous buttons */
 .prev, .next {

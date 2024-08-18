@@ -5,6 +5,11 @@ import MainPage from './MainPage';
 import ArticleComponent from './ArticleComponent';
 import article_main from './ArticleMain';
 import article_about from './ArticleAbout';
+import SlideshowComponent from "./SlideshowComponent";
+
+import img1 from "./img/img1.jpg";
+import img2 from "./img/img2.jpg";
+import img3 from "./img/img3.jpg";
 
 function App() {
 
@@ -13,7 +18,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainPage/>}>
-            <Route index element={<ArticleComponent data={article_main}/>}></Route>
+            <Route index element={<><SlideshowComponent srcimg1={img1} srcimg2={img2} srcimg3={img3}/><ArticleComponent data={article_main}/></>}></Route>
             <Route path="/news" element={<div>News</div>}></Route>
             <Route path="/gallery" element={<div>Gallery</div>}></Route>
             <Route path="/about" element={<ArticleComponent data={article_about}/>}></Route>
