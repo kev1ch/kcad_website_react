@@ -24,11 +24,13 @@ function MainPage() {
                 </div>
 
                 <div className="dropdown_navigaiton">
-                    <button className="dropdown_button">=</button>
+                    <button className="dropdown_button">&#9776;</button>
                     <div className="dropdown_content">
-                        <div className="dropdown_element">111</div>
-                        <div className="dropdown_element">222</div>
-                        <div className="dropdown_element">333</div>
+                        <div className="dropdown_element">Home</div>
+                        <div className="dropdown_element">News</div>
+                        <div className="dropdown_element">Gallery</div>
+                        <div className="dropdown_element">About</div>
+                        <div className="dropdown_element">Contact</div>
                     </div>
                 </div>
             </header>

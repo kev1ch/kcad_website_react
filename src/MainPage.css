@@ -29,6 +29,11 @@ nav {
     display: inline-block;
 }
 
+footer {
+    background-color: lightblue;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
 
 .link-style {
     display: inline-block;
@@ -48,7 +53,7 @@ nav {
 }
 
 .dropdown_button {
-    background-color: #04AA6D;
+    background-color:cadetblue;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -59,6 +64,7 @@ nav {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -79,4 +85,4 @@ nav {
 .dropdown_navigaiton:hover .dropdown_content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown_navigaiton:hover .dropdown_button {background-color: #3e8e41;}
+.dropdown_navigaiton:hover .dropdown_button {background-color: lightblue;}

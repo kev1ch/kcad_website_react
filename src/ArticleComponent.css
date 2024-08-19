@@ -1,4 +1,17 @@
+.article_title {
+    font-size: 35px;
+    text-align: center;
+}
+
 .main_block {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     color: black;
+    font-size: 25px;
+
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+
+    width: 100%;
 }

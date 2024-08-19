@@ -1,11 +1,11 @@
 const article_main = {
-    title: "Test Title Main",
+    title: "MISSION STATEMENT",
     paragraphs: [
-        {title : "Paragraph 1",
-         text: "When you have a function f and a real number a, the definition of limit does NOT tell you what the value of L should be. In other words, the definition gives you a way to check if you guessed the correct limit, but it doesn’t say how to obtain that guess in the first place. Sometimes we describe this by saying the definition is not constructive."
+        {title : "",
+         text: "KCAD's mission is to provide an accessible platform for education, inspiration and celebration of the Arts and related fields to the entire community."
         },
-        {title: "Paragraph 2",
-         text: "When you have a function f and a real number a, the definition of limit does NOT tell you what the value of L should be. In other words, the definition gives you a way to check if you guessed the correct limit, but it doesn’t say how to obtain that guess in the first place. Sometimes we describe this by saying the definition is not constructive."
+        {title: "",
+         text: "From Visual + Performing Arts to Design + Culinary Arts, KCAD seeks to nurture all who are curious and/or passionate about the Arts."
         }
     ]
 }

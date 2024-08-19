@@ -9,6 +9,7 @@ function ArticleComponent(props) {
             <div className="article_title">{data.title}</div>
             {data.paragraphs.map((paragraph) => (
                 <>
+                    <br/>
                     <div>{paragraph.title}</div>
                     <div>{paragraph.text}</div>
                 </>
