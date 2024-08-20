@@ -1,17 +1,31 @@
+@media screen and (max-width: 1000px) {     /* MOBILE/SMALL SCREEN VERSION */
+    .main_block {
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 1000px) {     /* PC/REGULAR SCREEN VERSION */
+    .main_block {
+        padding-top: 20px;
+        padding-left: 245px;
+        padding-right: 245px;
+        padding-bottom: 20px;
+    }
+}
+
 .article_title {
     font-size: 35px;
     text-align: center;
+    font-weight: bold;
 }
 
 .main_block {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     color: black;
     font-size: 25px;
-
-    padding-top: 20px;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 20px;
 
     width: 100%;
 }

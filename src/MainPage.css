@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {     /* MOBILE/SMALL SCREEN VERSION */
     .dropdown_navigaiton {
         position: relative;
         display: inline-block;
@@ -8,7 +8,7 @@
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {     /* PC/REGULAR SCREEN VERSION */
     .navigation_bar {
         height: 70px;
         background-color: lightblue;
@@ -18,7 +18,7 @@
     .dropdown_navigaiton {
         display: none;
     }
-  }
+}
 
 nav {
     vertical-align: top;

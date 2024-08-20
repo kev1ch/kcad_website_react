@@ -1,4 +1,7 @@
 import SlideComponent from "./SlideComponent";
+import DotComponent from "./DotComponent";
+import { SlideIdContext } from "./SlideIdContext";
+
 import { useState } from "react";
 
 import './SlideshowComponent.css';
@@ -23,9 +26,11 @@ function SlideshowComponent(props) {
             </div>
 
             <div style={{textAlign: "center"}}>
-                <span className="dot" onClick={() => {setSlideId(0)}}></span>
-                <span className="dot" onClick={() => {setSlideId(1)}}></span>
-                <span className="dot" onClick={() => {setSlideId(2)}}></span>
+                <SlideIdContext.Provider value={{slide_id, setSlideId}}>
+                    <DotComponent id={0} onClick={() => {setSlideId(0)}}/>
+                    <DotComponent id={1} onClick={() => {setSlideId(1)}}/>
+                    <DotComponent id={2} onClick={() => {setSlideId(2)}}/>
+                </SlideIdContext.Provider>
             </div>
         </div>
     );

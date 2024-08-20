@@ -9,6 +9,9 @@ const article_contact = {
         },
         {title: "",
          text: "TikTok - https://www.tiktok.com/@kcad_"
+        },
+        {title: "",
+         text: "Facebook - https://www.facebook.com/KCADygk/"
         }
     ]
 }

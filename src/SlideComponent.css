@@ -1,0 +1,9 @@
+/* Fading animation */
+.fade {
+    animation: fadeIn 1s;
+}
+  
+@keyframes fadeIn {
+    from {opacity: .4}
+    to {opacity: 1}
+}
