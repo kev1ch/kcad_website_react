@@ -1,16 +1,16 @@
 import { useContext } from 'react';
+import { SlideIdContext } from "./SlideIdContext";
 
 import './DotComponent.css';
-import { SlideIdContext } from "./SlideIdContext";
 
 function DotComponent(props) {
 
     const {slide_id, setSlideId} = useContext(SlideIdContext);
     const id = props.id;
-    var dot = <span className="inactive" onClick={props.onClick}>#</span>;
+    var dot = <span className="inactive" onClick={() => {setSlideId(id)}}></span>;
 
     if (slide_id == id) {
-        dot = <span className="active" onClick={props.onClick}>#</span>;
+        dot = <span className="active" onClick={() => {setSlideId(id)}}></span>;
     }
 
     return (

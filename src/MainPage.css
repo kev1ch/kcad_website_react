@@ -1,8 +1,11 @@
 @media screen and (max-width: 1000px) {     /* MOBILE/SMALL SCREEN VERSION */
-    .dropdown_navigaiton {
-        position: relative;
-        display: inline-block;
+
+    .mobile_navigation_bar {
+        vertical-align: top;
+        background-color: lightblue;
+        width: 100%;
     }
+
     .navigation_bar {
         display: none;
     }
@@ -15,7 +18,7 @@
         width: 100%;
         text-align:center;
     }
-    .dropdown_navigaiton {
+    .mobile_navigation_bar {
         display: none;
     }
 }
@@ -50,6 +53,11 @@ footer {
 
 .link-style:hover {
     background-color: lightskyblue;
+}
+
+.dropdown_navigaiton {
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown_button {
