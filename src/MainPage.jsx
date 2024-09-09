@@ -21,6 +21,8 @@ function MainPage() {
                         <Link className="link-style" to="/about">About</Link>
                         <Link className="link-style" to="/contact">Contact</Link>
                     </nav>
+
+
                 </div>
 
                 <div className="mobile_navigation_bar">
@@ -36,6 +38,7 @@ function MainPage() {
                         </div>
 
                     </div>
+                    <div className="mobile_logo_container"><img src={website_logo} alt="website_logo"/></div>
                 </div>
             </header>
 

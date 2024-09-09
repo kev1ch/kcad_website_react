@@ -4,6 +4,7 @@
         vertical-align: top;
         background-color: lightblue;
         width: 100%;
+        display: inline-block;
     }
 
     .navigation_bar {
@@ -55,9 +56,22 @@ footer {
     background-color: lightskyblue;
 }
 
+.mobile_logo_container {
+    vertical-align: center;
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+}
+
 .dropdown_navigaiton {
     position: relative;
     display: inline-block;
+
+    vertical-align: top;
+    
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .dropdown_button {

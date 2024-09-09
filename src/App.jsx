@@ -16,6 +16,8 @@ import img3 from "./img/img3.jpg";
 
 function App() {
 
+  document.title = "Kingston Community Arts and Design";
+
   return (
     <>
       <BrowserRouter>

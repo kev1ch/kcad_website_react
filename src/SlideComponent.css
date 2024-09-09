@@ -1,6 +1,16 @@
-/* Fading animation */
-.fade {
-    animation: fadeIn 1s;
+@media screen and (max-width: 1000px) {     /* MOBILE/SMALL SCREEN VERSION */
+    .image {
+        width: 500px;
+        animation: fadeIn 1s;   /* Fading animation */
+    }
+}
+  
+@media screen and (min-width: 1000px) {     /* PC/REGULAR SCREEN VERSION */
+    .image {
+
+
+        animation: fadeIn 1s;   /* Fading animation */
+    }
 }
   
 @keyframes fadeIn {

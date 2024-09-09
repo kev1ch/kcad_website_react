@@ -5,7 +5,7 @@ function SlideComponent(props) {
     return (
         <div>
             <div>{props.id} / {props.total}</div>
-            <img className="fade" src={props.srcimg}/>
+            <img className="image" src={props.srcimg}/>
             <div>{props.text}</div>
         </div>
     );

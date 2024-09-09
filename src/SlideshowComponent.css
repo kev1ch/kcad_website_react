@@ -1,21 +1,25 @@
 * {box-sizing:border-box}
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {     /* MOBILE/SMALL SCREEN VERSION */
   .slideshow-style {
-    display: none;
+    vertical-align: center;
+                                      /*TODO: FIX ARROWS*/
+    position: relative;
+    margin: auto;
+
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {     /* PC/REGULAR SCREEN VERSION */
   /* Slideshow container */
   .slideshow-style {
     vertical-align: center;
     max-width: 1000px;
     position: relative;
     margin: auto;
-
-    border-width: 1px;
-    border-color: blue;    /* ??? */
   }
 }
 
