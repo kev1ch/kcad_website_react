@@ -18,7 +18,11 @@
 
 .article_title {
     font-size: 35px;
+    font-weight: bold;
     text-align: center;
+}
+
+.paragraph_title {
     font-weight: bold;
 }
 
@@ -26,6 +30,12 @@
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     color: black;
     font-size: 25px;
-
     width: 100%;
+}
+
+.title_underline {
+    width: 100%;
+    border: 5px solid salmon;
+    border-radius: 5px;
+    display: inline-block;
 }

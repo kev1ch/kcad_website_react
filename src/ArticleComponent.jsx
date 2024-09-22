@@ -17,8 +17,14 @@ function ArticleComponent(props) {
                 ) : (
                     <>
                         <br/>
-                        <div>{paragraph.title}</div>
-                        <div>{paragraph.text}</div>
+                        <div className="paragraph_title">{paragraph.title}</div>
+                        <hr className="title_underline"/>
+                        <div>{Array.isArray(paragraph.text) ? paragraph.text.map((sub_paragraph) => (
+                            <>
+                                {sub_paragraph}
+                                <br/>
+                            </>
+                        )) : paragraph.text}</div>
                     </>
                 )
             ))}
